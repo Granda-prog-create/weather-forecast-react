@@ -1,0 +1,39 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0%;
+}
+
+.search{
+  background-color: cadetblue;
+  padding: 10px;
+  text-align: center;
+}
+
+.search input[type=text] {
+  width: 80%;
+  height: 40px;
+  padding-left: 10px;
+
+}
+
+.search input[type=submit]{
+  width: 80%;
+  height: 40px;
+  cursor: pointer;
+  background-color: #fcba03;
+  border: 0;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.containerCidade{
+  text-align: center;
+
+}
+
+.containerCidade p {
+  border-bottom: 1px dashed #ccc ;
+  padding: 10px 0;
+  font-weight: bold;
+}
